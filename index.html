@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Project</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script>
+        let count = 0;
+        function inc() {
+            count++;
+            document.getElementById("counter").innerHTML = count;
+        }
+        function dec() {
+            count--;
+            document.getElementById("counter").innerHTML = count;
+        }
+        function reset() {
+            count = 0;
+            document.getElementById("counter").innerHTML = count;
+        }
+
+    </script>
+
+
+
+</head>
+<body>
+<div class="cards-container">
+    <div class="Container">
+             <div class="card-img">
+                        <img src="./img/shooes.png.webp" class="img"/>
+              </div>
+        <div class="card-title">
+            <span class="heading">Sports Shoes</span>
+        </div>
+        <div class="card-decription">
+            <p class="para">the shoes are designed to provide grip, stability &comfort at work, travel or any kind of sports activities.😍</p>
+        </div>
+         <div class="card-prize">
+                              <button class="prize-btn">$ 209.00</button>
+         </div>
+         <div class="prod-quantity">
+                      <h3 class="quantity">Quantity</h3>
+         </div>
+        <div  class="event-onclick">
+                 <button onclick="dec()" class="btn-2">
+                      <img  class="icons" src="./img/minus-icon.png"/>
+                </button>
+                <h1 id="counter">0</h1>
+               <button onclick="inc()" class="btn-2">
+                <img class="icons" src="./img/plus-icon.png"/>
+               </button>
+                <button onclick="reset()" class="btn-1">Reset</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

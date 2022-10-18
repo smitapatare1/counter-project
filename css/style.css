@@ -1,0 +1,156 @@
+.cards-container{
+    padding-left: 500px;
+            padding-right: 500px;
+            padding-top: 50px;
+            padding-bottom: 50px;    
+}
+.Container{
+    border: 1px solid black;
+    background-color: skyblue;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 4px rgb(182, 174, 174);
+
+}
+
+.Container:hover{
+    box-shadow: 1px 1px 1px 4.3px rgb(158, 144, 144);
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.img{
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1.5px rgb(100, 87, 87);
+
+}
+.img:hover{
+    box-shadow: 0px 0px 1px 2px rgb(139, 127, 127);
+}
+
+.card-title{
+    height: 30px;
+    width:100%;
+    margin-top:15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-decription{
+    margin-top:1px;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.event-onclick{
+    display: flex;
+     justify-content: center;
+     height: 25px;
+}
+
+
+
+.icons{
+    height: 20px;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.para{
+    font-size: 15px;
+    margin-top:10px;
+    line-height: 20px;
+    margin-left:2px;
+    font-weight:initial;
+}
+
+.prize-btn{
+    margin-top:10px;
+    margin-left:30px;
+    padding:2px;
+    cursor:pointer;
+    border: none;
+    height: 40px;
+    width:70px;
+    font-size: 16px;
+    border-radius: 6px 0 6px 0;
+    border: 0.5px solid black;
+    color: white;
+    background-image: linear-gradient(rgb(112, 112, 223), #0202a0);
+    box-shadow: 0px 0px 1px 1px rgb(107, 90, 90);
+}
+
+.prize-btn:hover{
+    background-image: linear-gradient(#0a0aeb,#191966);
+    box-shadow: 0px 0px 1px 1.5px rgb(107, 90, 90);
+}
+
+.btn-1{
+    cursor:pointer;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    border-radius:0 4px 0 4px;
+    border: 0.5px solid black;
+    color: white;
+    background-image: linear-gradient(#0a0aeb,#191966);
+    width:62px;
+    transition: 1s;
+    box-shadow: 1px 1px 1px 1px rgb(107, 90, 90);
+    margin-left: 37px;
+}
+
+.btn-1:hover{
+    height: 40.5px;
+    font-size: 16.5px;
+    width:62.5px;
+    box-shadow: 1px 1px 1px 2px rgb(134, 121, 121);
+    background-image: linear-gradient(#145494, #000099);
+}
+
+#counter{
+    margin-top:0px;
+    margin-left:20px;
+    margin-right:20px;
+
+
+}
+
+
+.prod-quantity{
+    margin-left:90px;
+}
+
+.quantity{
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.btn-2{
+    cursor: pointer;
+    border: none;
+    height: 37px;
+    box-shadow: 0 0 1.5px 3px  #9494b4;
+    padding: 8px;
+    background-image: linear-gradient(#ccff66,#ffff66);
+    border-radius: 50%;
+}
+
+.btn-2:hover{
+    background-image: linear-gradient(yellow, #ffd11a);
+   
+}
